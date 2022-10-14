@@ -12,5 +12,5 @@ metadata:
     
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: experimental
   owner: guests
