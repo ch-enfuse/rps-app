@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rps-app
+  annotations:
+    github.com/project-slug: ch-enfuse/rps-app
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
