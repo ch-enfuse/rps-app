@@ -2,9 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: rps-app
+  links:
+    - url: https://github.com/ch-enfuse/rps-app
+      title: Github-repo
+      icon: dashboard
   annotations:
     github.com/project-slug: ch-enfuse/rps-app
     backstage.io/techdocs-ref: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    
 spec:
   type: other
   lifecycle: experimental
