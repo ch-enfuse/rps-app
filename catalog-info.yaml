@@ -7,7 +7,7 @@ metadata:
       title: Github-repo
   annotations:
     github.com/project-slug: ch-enfuse/rps-app
-    backstage.io/techdocs-ref: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    backstage.io/techdocs-ref: http://github.com/backstage/backstage/blob/master/catalog-info.yaml
     
 spec:
   type: other
