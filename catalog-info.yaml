@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: ch-enfuse/rps-app
     dev.azure.com/project-repo: enfuse-backstage-devops/enfuse-backstage-devops
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
 spec:
   type: other
   lifecycle: unknown
