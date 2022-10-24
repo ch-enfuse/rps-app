@@ -6,9 +6,9 @@ metadata:
     - url: https://github.com/ch-enfuse/rps-app
       title: Github-repo
   annotations:
-    github.com/project-slug: ch-enfuse/rps-app
+    github.com/project-slug: rps-app/ch-enfuse
     backstage.io/techdocs-ref: http://github.com/backstage/backstage/blob/master/catalog-info.yaml
-    dev.azure.com/project-repo: test-project/rps-app
+    # dev.azure.com/project-repo: test-project/rps-app
     
 spec:
   type: other
