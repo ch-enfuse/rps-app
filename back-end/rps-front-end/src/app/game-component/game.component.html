@@ -1,0 +1,77 @@
+<div class="game-container">
+    <h1>
+        Rock Paper Scissors
+    </h1>
+    <div class="scores-main-div">
+
+    </div>
+    <div class="highest-score-container">
+        <h4>
+            Score History
+        </h4>
+        <div class="score-item">
+            <span class="score-item-title">
+                Player
+            </span>
+            <span class="score-item-score">{{highestScore.player}}</span>
+        </div>
+        
+        <div class="score-item">
+            <span class="score-item-title">
+                Computer 
+            </span>
+            <span class="score-item-score">{{highestScore.computer}}</span>
+        </div>
+    
+        <div class="score-item">
+            <span class="score-item-title">
+                Tie 
+            </span>
+            <span class="score-item-score">{{highestScore.tie}}</span>
+        </div>
+    </div>
+    <div class="score-container">
+        <h4>
+            Score
+        </h4>
+        <div class="score-item">
+            <span class="score-item-title">
+                Player
+            </span>
+            <span class="score-item-score">{{score['player']}}</span>
+        </div>
+        
+        <div class="score-item">
+            <span class="score-item-title">
+                Computer 
+            </span>
+            <span class="score-item-score">{{score.computer}}</span>
+        </div>
+    
+        <div class="score-item">
+            <span class="score-item-title">
+                Tie 
+            </span>
+            <span class="score-item-score">{{score.tie}}</span>
+        </div>
+    </div>
+   
+    <div class="play-options">
+
+        <button (click)="play(_RPSOption.ROCK)">
+            Rock
+        </button>
+        <button (click)="play(_RPSOption.PAPPER)">
+            Paper
+        </button>
+        <button (click)="play(_RPSOption.SCISSORS)">
+            Scissors
+        </button>
+        <button (click)="play(_RPSOption.LIZZARD)">
+            Lizzard
+        </button>
+        <button (click)="play(_RPSOption.SPOCK)">
+            SPOCK
+        </button>
+    </div>
+</div>

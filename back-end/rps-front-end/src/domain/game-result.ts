@@ -1,0 +1,6 @@
+
+export enum GameResult{
+    FIRST_PLAYER_WIN="FIRST_PLAYER_WIN",
+    FIRST_PLAYER_LOSS="FIRST_PLAYER_LOSS",
+        TIE="TIE"
+}
