@@ -14,4 +14,4 @@ metadata:
 spec:
   type: other
   lifecycle: experimental
-  owner: guests
+  owner: group:bench/infrastructure
