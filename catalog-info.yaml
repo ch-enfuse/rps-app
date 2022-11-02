@@ -14,5 +14,5 @@ metadata:
 spec:
   type: other
   lifecycle: experimental
-  owner: group:bench/infrastructure
+  owner: bench/infrastructure
   system: enfuse-asae-sandbox
