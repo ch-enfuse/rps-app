@@ -15,3 +15,4 @@ spec:
   type: other
   lifecycle: experimental
   owner: group:bench/infrastructure
+  system: enfuse-asae-sandbox
