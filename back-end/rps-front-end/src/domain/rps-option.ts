@@ -1,0 +1,3 @@
+export enum RPSOption {
+    ROCK,PAPPER, SCISSORS, LIZZARD, SPOCK
+}

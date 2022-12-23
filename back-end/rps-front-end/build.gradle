@@ -1,0 +1,14 @@
+plugins {
+  id "com.github.node-gradle.node" version "3.4.0"
+}
+
+version '0.0.1'
+
+task build(type: NpmTask) {
+  args = [ 'run', 'build']
+}
+
+
+task test(type: NpmTask) {
+  args = ['run', 'test']
+}   
