@@ -9,7 +9,6 @@ metadata:
     github.com/project-slug: ch-enfuse/rps-app
     backstage.io/techdocs-ref: url:https://github.com/backstage/backstage/tree/master
     dev.azure.com/project-repo: test-project/rps-app
-    dynatrace.com/dynatrace-entity-id: kzu95154
     
 spec:
   type: other
